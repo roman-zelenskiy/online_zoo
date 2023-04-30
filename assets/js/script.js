@@ -27,7 +27,7 @@ let wrapBlackout = document.querySelector('.wrap_blackout');
         }
     }
 })();
-if (document.URL.includes('online_zoo/index.html')) {
+if (document.URL.includes('online_zoo/index.html') || document.URL.includes('online_zoo/')) {
     (function clickArrowChooseFavorite() {
         let arrowRight = document.querySelector('.arrow_right');
         let arrowLeft = document.querySelector('.arrow_left');
